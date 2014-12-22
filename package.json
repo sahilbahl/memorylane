@@ -1,0 +1,23 @@
+{
+  "name": "memorylane",
+  "subdomain": "memorylane",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "domains": [
+    "www.classmates2015.in"
+  ],
+  "version": "0.0.0-162",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "3.2.4",
+    "ejs": "*",
+    "mongoose": "*",
+    "passport": "^0.2.1",
+    "passport-facebook": "^1.0.3",
+    "socket.io": "0.9.14",
+    "fbgraph": "*"
+  }
+}
